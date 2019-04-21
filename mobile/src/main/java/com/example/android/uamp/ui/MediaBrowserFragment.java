@@ -300,7 +300,7 @@ public class MediaBrowserFragment extends Fragment {
     // An adapter for showing the list of browsed MediaItem's
     private static class BrowseAdapter extends ArrayAdapter<MediaBrowserCompat.MediaItem> {
 
-        public BrowseAdapter(Activity context) {
+        public  BrowseAdapter(Activity context) {
             super(context, R.layout.media_list_item, new ArrayList<MediaBrowserCompat.MediaItem>());
         }
 
